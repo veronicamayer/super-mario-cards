@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Title</title>
+</head>
+<body>
+    <main>
+        <div id="outline">
+            <section id="card">
+                <h1>Mario</h1>
+                <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/MarioNSMBUDeluxe.png" alt="">
+                <article>
+                    <p id="firstGameOutput">Super Mario Bros (1985)</p>
+                    <p id="descriptionOutput">Mario is known for being kind, cheerful, playful, daredevil, courageous, and headstrong and is also eager and cocky in certain occasions.</p>
+                </article>
+                <p id="cardNumberOutput">01</p>
+            </section>
+        </div>
+
+        <section id="table">
+            <h2>Create your own card:</h2>
+            <form>
+                <div>
+                    <input type="text" id="cardNumber" placeholder="No." required>
+                    <input type="text" id="name" placeholder="Name" required>
+                </div>
+                <textarea name="description" id="description" cols="30" rows="10" placeholder="Description of the character" maxlength="220" required></textarea>
+                <div>
+                    <input type="text" id="firstGame" placeholder="First appearance in a game" required>
+                    <input type="text" id="color" placeholder="Color" required>
+                </div>
+                <input type="url" id="image" placeholder="Link to an image of the character" required>
+                <input type="submit" value="Show my card">
+            </form>
+            <a href="./index.html">New Card</a>
+        </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
